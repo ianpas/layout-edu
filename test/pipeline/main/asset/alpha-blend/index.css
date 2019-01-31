@@ -1,0 +1,25 @@
+.a
+{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255,0,0,1.0);
+}
+
+.b
+{
+    width: 100px;
+    height: 100px;
+    margin-top: -50px;
+    margin-left: 50px;
+    background-color: rgba(0,0,255,0.5);
+}
+
+.c
+{
+    width: 100px;
+    height: 100px;
+    margin-top: -50px;
+    margin-left: 100px;
+    background-color: rgba(0,255,0,0.5);
+}
+

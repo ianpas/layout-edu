@@ -1,0 +1,30 @@
+{
+  "name": "layout-edu",
+  "version": "0.0.1",
+  "description": "simple layout engine for learning purpose",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "ianpas",
+  "license": "MIT",
+  "dependencies": {
+    "@types/color": "^3.0.0",
+    "@types/jsdom": "^12.2.1",
+    "@types/pngjs": "^3.3.2",
+    "color": "^3.1.0",
+    "css": "^2.2.4",
+    "css-selector-tokenizer": "^0.7.1",
+    "jsdom": "^13.1.0",
+    "pngjs": "^3.3.3"
+  },
+  "devDependencies": {
+    "@types/css": "0.0.31",
+    "@types/jest": "^23.3.2",
+    "@types/node": "^10.10.2",
+    "clean-css": "^4.2.1",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.1",
+    "typescript": "^3.0.3"
+  }
+}

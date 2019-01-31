@@ -1,0 +1,27 @@
+body 
+{
+    margin: 0;
+}
+
+.container
+{
+    width: 500px;
+}
+
+.a
+{
+    padding: 12px;
+    margin-top: 6px;
+    margin-left: 3px;
+    height: 75px;
+    background: rgba(0,160,233,0.7);
+}
+
+.b
+{
+    padding: 18px;
+    margin-bottom: 5px;
+    margin-right: 4px;
+    height: 35px;
+    background: #00a0e9;
+}

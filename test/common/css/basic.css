@@ -1,0 +1,17 @@
+h1, h2, h3 
+{ 
+    margin: auto; 
+    color: #cc0000;
+    padding: 10px; 
+}
+
+.note
+{ 
+    margin-bottom: 20px; 
+    padding: 20px; 
+}
+
+#answer 
+{
+    display: none; 
+}

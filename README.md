@@ -2,7 +2,7 @@
 
 This project is inspired by this article series: [Let's build a browser engine!](https://limpet.net/mbrubeck/2014/08/08/toy-layout-engine-1.html), and I learned a lot from it.
 
-The implementation mentioned above is in Rust language, as I want to practice programming in Typescript and how CSS box model works under the hood, I decided to implement one as well.
+The implementation mentioned above is in rust language, as I want to practice programming in typescript and how css box model works under the hood, I decided to implement one as well.
 
 # Scope
 
@@ -16,29 +16,34 @@ We will build a simple renderer that takes html&css files as input, and the outp
 
 * square with solid color, a single div box; corresponding input files: [html](https://ianpas.github.io/layout-edu/basic/)
 
-![](https://github.com/ianpas/layout-edu/blob/master/doc/main-basic.png)
+![](https://raw.githubusercontent.com/ianpas/layout-edu/master/doc/main-basic.png)
 
 * squares with alpha blend; [html](https://ianpas.github.io/layout-edu/alpha-blend/)
 
-![](https://github.com/ianpas/layout-edu/blob/master/doc/main-alpha-blend.png)
+![](https://raw.githubusercontent.com/ianpas/layout-edu/master/doc/main-alpha-blend.png)
 
 * concentric rectangles, or nested boxes; [html](https://ianpas.github.io/layout-edu/concentric/)
 
-![](https://github.com/ianpas/layout-edu/blob/master/doc/main-concentric.png)
+![](https://raw.githubusercontent.com/ianpas/layout-edu/master/doc/main-concentric.png)
 
 In fact, if you can render individual box, then you can treat it as single pixel and render anything, theoretically. Thus you can convert png file to html&css files as input of our renderer and get png file back!
 
 * png file as thousands of div boxes; [html-chinese-knot](https://ianpas.github.io/layout-edu/png2html/chinese-knot/), [html-spring](https://ianpas.github.io/layout-edu/png2html/spring/)
 
-![](https://github.com/ianpas/layout-edu/blob/master/doc/main-chinese-knot.png)
+![](https://raw.githubusercontent.com/ianpas/layout-edu/master/doc/main-chinese-knot.png)
 
-![](https://github.com/ianpas/layout-edu/blob/master/doc/main-spring.png)
+![](https://raw.githubusercontent.com/ianpas/layout-edu/master/doc/main-spring.png)
 
 # Docs 
 
-Documents, or notes about this implementation, wiil be in issues of this project. You may find it helpful when you want to implement your own layout engine.
+Documents, or notes about this implementation, will be in issues of this project. You may find it helpful when you want to implement your own layout engine.
 
-# Project Structure
+* [Overview](https://github.com/ianpas/layout-edu/issues/1)
+* [Style](https://github.com/ianpas/layout-edu/issues/2)
+* [Layout](https://github.com/ianpas/layout-edu/issues/3)
+* [Rendering](https://github.com/ianpas/layout-edu/issues/4)
+
+# Project structure
 
 
 * /out : output of generated png files

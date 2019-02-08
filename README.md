@@ -56,6 +56,10 @@ Documents, or notes about this implementation, will be in issues of this project
   * /test/png2html: test converting png to html&css files
   * ...
 * ...
+
+# Code coverage
+[coverage report](https://ianpas.github.io/layout-edu/coverage/lcov-report/index.html)
+
 # Local setup
 
 Run "npm install" to install packages required by this project.
